@@ -29,7 +29,6 @@ export function Card({ data, viewImage }: CardProps): JSX.Element {
         <Image
           src={data.url}
           alt={data.title}
-          objectFit="cover"
           w="max"
           h={48}
           borderTopRadius="md"
